@@ -16,4 +16,9 @@ public class RestController {
     public String entrar(){
         return "Entrando carro";
     }
+
+    @GetMapping
+    public String sair(){
+        return "Comando para sair Carro";
+    }
 }
