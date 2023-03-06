@@ -21,4 +21,9 @@ public class RestController {
     public String sair(){
         return "Comando para sair Carro";
     }
+
+    @GetMapping
+    public String error(){
+        return "Deu Erro";
+    }
 }
